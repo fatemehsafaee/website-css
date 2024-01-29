@@ -1,0 +1,103 @@
+/* none */
+
+/* .box {
+    width: 15vw;    
+} */
+
+main{
+    margin-top: 100px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(59, 87%, 78%, 0.611);
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 100px;
+    border-radius: 24px;
+    text-align: justify;
+  }
+  
+  .product-description {
+    margin-bottom: 0;
+    font-size: 1.5vw;
+  }
+  
+  .more {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: brown;
+    font-size: 1.7vw;
+    }
+
+    .Brand{
+        font-size: 1rem;
+        color: rgb(54, 5, 231);
+
+    }
+
+    @media (min-width: 1023px){
+        .product-description {
+            font-size: 1.1vw;
+          }
+    }
+
+    @media (max-width: 768px){
+        div p{
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+        }
+
+
+    }
+    @media (max-width: 425px){
+        main{
+            padding: 1vw 2vw;
+          }
+    }
+
+    @media (max-width: 320px){
+
+        .btn{
+            background-color: rgb(0, 0, 100);
+            display: flex;
+            border: none;
+            outline: 0;
+            padding: 3px 10px;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: 500;
+            color: white;
+            font-size: 10px;
+          }
+          div p{
+            font-size: 9px;
+            color: rgb(0, 0, 0);
+        }
+        .Brand{
+            font-size: 0.7rem;
+            color: rgb(54, 5, 231);
+    
+        }
+        .more {
+            font-size: 3.5vw;
+            }
+        .box h2{
+            padding: 0;
+            margin: 5px 0;
+        }
+
+        main{
+            padding: 1vw 2vw;
+        }
+        .content{
+            padding: 10px;
+        }
+    }
+
